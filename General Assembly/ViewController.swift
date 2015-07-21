@@ -9,21 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var courses: Array<GeneralAssemblyCourse>?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        navigationController?.navigationBar.barTintColor = UIColor.blackColor()
+        navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        
         let coursesLoader = CoursesLoader()
         coursesLoader.refresh { (courses) -> Void in
-            
+            self.courses = courses
+            self.performSegueWithIdentifier("doneLoading", sender: self)
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        ((segue.destinationViewController as! UINavigationController).viewControllers[0] as! CoursesCollectionViewController).courses = courses
     }
-
 
 }
 

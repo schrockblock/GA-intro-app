@@ -14,7 +14,11 @@ class CoursesLoader: NSObject {
         let courseCall: CoursesNetworkCall = CoursesNetworkCall()
         courseCall.execute { (data, response, error) -> Void in
             let parser: CoursesParser = CoursesParser()
-            let courses: Array<GeneralAssemblyCourse>? = parser.parse(data, response: response, error: error)
+            var courses: Array<GeneralAssemblyCourse>? = parser.parse(data, response: response, error: error)
+            courses = courses?.filter({ (course) -> Bool in
+                return course.format == "class" || course.format == "workshop"
+            })
+            courses = courses?.reverse()
             completion(courses)
         }
     }

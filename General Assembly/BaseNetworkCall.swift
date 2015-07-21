@@ -25,7 +25,9 @@ class BaseNetworkCall: NSObject {
         }
         
         session.dataTaskWithRequest(request, completionHandler: { (data, response, error) -> Void in
-            completion(data, response as? NSHTTPURLResponse, error)
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                completion(data, response as? NSHTTPURLResponse, error)
+            })
         }).resume();
     }
 }

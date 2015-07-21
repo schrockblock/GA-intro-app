@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49BECBA31B5DF6BE000151C7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49DC54231B5ACFAF0037CBCF /* Info.plist */; };
+		49BECBA41B5DF6BF000151C7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49DC54231B5ACFAF0037CBCF /* Info.plist */; };
+		49BECBA81B5DF8DB000151C7 /* News7BTRomC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BECBA71B5DF8DB000151C7 /* News7BTRomC.ttf */; };
+		49BECBA91B5DF8DB000151C7 /* News7BTRomC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BECBA71B5DF8DB000151C7 /* News7BTRomC.ttf */; };
 		49DC54251B5ACFAF0037CBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54241B5ACFAF0037CBCF /* AppDelegate.swift */; };
 		49DC54271B5ACFAF0037CBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54261B5ACFAF0037CBCF /* ViewController.swift */; };
 		49DC542A1B5ACFAF0037CBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC54281B5ACFAF0037CBCF /* Main.storyboard */; };
@@ -25,14 +29,14 @@
 		49DC54591B5AD4430037CBCF /* GeneralAssemblyCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54571B5AD4430037CBCF /* GeneralAssemblyCourse.swift */; };
 		49DC54671B5C09190037CBCF /* GAInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54661B5C09190037CBCF /* GAInstructor.swift */; };
 		49DC54681B5C09190037CBCF /* GAInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54661B5C09190037CBCF /* GAInstructor.swift */; };
-		49DC546E1B5C0F890037CBCF /* News7BTItaC in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546A1B5C0F890037CBCF /* News7BTItaC */; };
-		49DC546F1B5C0F890037CBCF /* News7BTItaC in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546A1B5C0F890037CBCF /* News7BTItaC */; };
-		49DC54701B5C0F890037CBCF /* News7BTRomC in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546B1B5C0F890037CBCF /* News7BTRomC */; };
-		49DC54711B5C0F890037CBCF /* News7BTRomC in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546B1B5C0F890037CBCF /* News7BTRomC */; };
-		49DC54721B5C0F890037CBCF /* News706 Rm:Bd BT in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546C1B5C0F890037CBCF /* News706 Rm:Bd BT */; };
-		49DC54731B5C0F890037CBCF /* News706 Rm:Bd BT in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546C1B5C0F890037CBCF /* News706 Rm:Bd BT */; };
 		49DC54741B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546D1B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf */; };
 		49DC54751B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49DC546D1B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf */; };
+		49DC54771B5C125F0037CBCF /* CoursesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54761B5C125F0037CBCF /* CoursesCollectionViewController.swift */; };
+		49DC54781B5C125F0037CBCF /* CoursesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54761B5C125F0037CBCF /* CoursesCollectionViewController.swift */; };
+		49DC547A1B5C16FC0037CBCF /* CourseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54791B5C16FC0037CBCF /* CourseCollectionViewCell.swift */; };
+		49DC547B1B5C16FC0037CBCF /* CourseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC54791B5C16FC0037CBCF /* CourseCollectionViewCell.swift */; };
+		49DC547D1B5C18800037CBCF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC547C1B5C18800037CBCF /* ImageDownloader.swift */; };
+		49DC547E1B5C18800037CBCF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC547C1B5C18800037CBCF /* ImageDownloader.swift */; };
 		974FB56DF42AB19BE26F76B9 /* Pods_General_Assembly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0133D42D5881FBE879FDDBBE /* Pods_General_Assembly.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,7 @@
 		0133D42D5881FBE879FDDBBE /* Pods_General_Assembly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_General_Assembly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14359BCB3623B9783F70793A /* Pods-General Assembly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-General Assembly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-General Assembly/Pods-General Assembly.debug.xcconfig"; sourceTree = "<group>"; };
 		291C255169B19E1159BA28E2 /* Pods-General Assembly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-General Assembly.release.xcconfig"; path = "Pods/Target Support Files/Pods-General Assembly/Pods-General Assembly.release.xcconfig"; sourceTree = "<group>"; };
+		49BECBA71B5DF8DB000151C7 /* News7BTRomC.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = News7BTRomC.ttf; path = Resources/News7BTRomC.ttf; sourceTree = SOURCE_ROOT; };
 		49DC541F1B5ACFAF0037CBCF /* General Assembly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "General Assembly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC54231B5ACFAF0037CBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DC54241B5ACFAF0037CBCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,10 +73,10 @@
 		49DC54601B5C03430037CBCF /* General Assembly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "General Assembly-Bridging-Header.h"; sourceTree = "<group>"; };
 		49DC54611B5C03430037CBCF /* General AssemblyTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "General AssemblyTests-Bridging-Header.h"; path = "../General Assembly/General AssemblyTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		49DC54661B5C09190037CBCF /* GAInstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAInstructor.swift; sourceTree = "<group>"; };
-		49DC546A1B5C0F890037CBCF /* News7BTItaC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = News7BTItaC; path = Resources/News7BTItaC; sourceTree = SOURCE_ROOT; };
-		49DC546B1B5C0F890037CBCF /* News7BTRomC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = News7BTRomC; path = Resources/News7BTRomC; sourceTree = SOURCE_ROOT; };
-		49DC546C1B5C0F890037CBCF /* News706 Rm:Bd BT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "News706 Rm:Bd BT"; path = "Resources/News706 Rm:Bd BT"; sourceTree = SOURCE_ROOT; };
 		49DC546D1B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PFDinTextCompPro-Bold.ttf"; path = "Resources/PFDinTextCompPro-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		49DC54761B5C125F0037CBCF /* CoursesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesCollectionViewController.swift; sourceTree = "<group>"; };
+		49DC54791B5C16FC0037CBCF /* CourseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCollectionViewCell.swift; sourceTree = "<group>"; };
+		49DC547C1B5C18800037CBCF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				49DC54261B5ACFAF0037CBCF /* ViewController.swift */,
+				49DC54761B5C125F0037CBCF /* CoursesCollectionViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				49DC54281B5ACFAF0037CBCF /* Main.storyboard */,
+				49DC54791B5C16FC0037CBCF /* CourseCollectionViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 				49DC54541B5AD3570037CBCF /* CoursesLoader.swift */,
 				49DC54571B5AD4430037CBCF /* GeneralAssemblyCourse.swift */,
 				49DC54661B5C09190037CBCF /* GAInstructor.swift */,
+				49DC547C1B5C18800037CBCF /* ImageDownloader.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -204,9 +212,7 @@
 		49DC54691B5C0F3F0037CBCF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				49DC546A1B5C0F890037CBCF /* News7BTItaC */,
-				49DC546B1B5C0F890037CBCF /* News7BTRomC */,
-				49DC546C1B5C0F890037CBCF /* News706 Rm:Bd BT */,
+				49BECBA71B5DF8DB000151C7 /* News7BTRomC.ttf */,
 				49DC546D1B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf */,
 			);
 			name = Resources;
@@ -303,11 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BECBA31B5DF6BE000151C7 /* Info.plist in Resources */,
 				49DC542A1B5ACFAF0037CBCF /* Main.storyboard in Resources */,
-				49DC54721B5C0F890037CBCF /* News706 Rm:Bd BT in Resources */,
-				49DC54701B5C0F890037CBCF /* News7BTRomC in Resources */,
+				49BECBA81B5DF8DB000151C7 /* News7BTRomC.ttf in Resources */,
 				49DC542F1B5ACFAF0037CBCF /* LaunchScreen.xib in Resources */,
-				49DC546E1B5C0F890037CBCF /* News7BTItaC in Resources */,
 				49DC542C1B5ACFAF0037CBCF /* Images.xcassets in Resources */,
 				49DC54741B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf in Resources */,
 			);
@@ -317,10 +322,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DC54711B5C0F890037CBCF /* News7BTRomC in Resources */,
 				49DC54751B5C0F890037CBCF /* PFDinTextCompPro-Bold.ttf in Resources */,
-				49DC54731B5C0F890037CBCF /* News706 Rm:Bd BT in Resources */,
-				49DC546F1B5C0F890037CBCF /* News7BTItaC in Resources */,
+				49BECBA41B5DF6BF000151C7 /* Info.plist in Resources */,
+				49BECBA91B5DF8DB000151C7 /* News7BTRomC.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,9 +384,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DC54521B5AD3280037CBCF /* CoursesParser.swift in Sources */,
+				49DC54771B5C125F0037CBCF /* CoursesCollectionViewController.swift in Sources */,
 				49DC54551B5AD3570037CBCF /* CoursesLoader.swift in Sources */,
+				49DC547A1B5C16FC0037CBCF /* CourseCollectionViewCell.swift in Sources */,
 				49DC54671B5C09190037CBCF /* GAInstructor.swift in Sources */,
 				49DC54271B5ACFAF0037CBCF /* ViewController.swift in Sources */,
+				49DC547D1B5C18800037CBCF /* ImageDownloader.swift in Sources */,
 				49DC54451B5AD0E50037CBCF /* BaseNetworkCall.swift in Sources */,
 				49DC54251B5ACFAF0037CBCF /* AppDelegate.swift in Sources */,
 				49DC54471B5AD1D70037CBCF /* CoursesNetworkCall.swift in Sources */,
@@ -400,7 +407,10 @@
 				49DC54491B5AD1DD0037CBCF /* BaseNetworkCall.swift in Sources */,
 				49DC54681B5C09190037CBCF /* GAInstructor.swift in Sources */,
 				49DC54561B5AD3570037CBCF /* CoursesLoader.swift in Sources */,
+				49DC547E1B5C18800037CBCF /* ImageDownloader.swift in Sources */,
+				49DC547B1B5C16FC0037CBCF /* CourseCollectionViewCell.swift in Sources */,
 				49DC54481B5AD1D70037CBCF /* CoursesNetworkCall.swift in Sources */,
+				49DC54781B5C125F0037CBCF /* CoursesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

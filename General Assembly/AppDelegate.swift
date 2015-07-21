@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        for family in UIFont.familyNames() {
+            for font in UIFont.fontNamesForFamilyName(family as! String) {
+                print("\(family)\n  \(font)\n")
+            }
+        }
+        let mainFont = UIFont(name: "PFDinTextCompPro-Bold", size: 20)!
+        let regularFont = UIFont(name: "TimesNewRomanPSMT", size: 15)!
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName : mainFont, NSForegroundColorAttributeName : UIColor.blackColor()]
+        UILabel.appearance().font = regularFont
         return true
     }
 
