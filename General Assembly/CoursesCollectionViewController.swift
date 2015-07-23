@@ -45,9 +45,14 @@ class CoursesCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CourseCollectionViewCell
     
         let course: GeneralAssemblyCourse = courses[indexPath.row]
-        ImageDownloader.downloadImage(course.imageUrl, completion: {(image) -> Void in
-            cell.imageView.image = image
-        })
+        if let courseImage = course.image {
+            cell.imageView.image = courseImage
+        }else{
+            ImageDownloader.downloadImage(course.imageUrl, completion: {(image) -> Void in
+                cell.imageView.image = image
+                course.image = image
+            })
+        }
         cell.titleLabel.text = course.title
     
         return cell

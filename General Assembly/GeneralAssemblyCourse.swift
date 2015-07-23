@@ -10,11 +10,12 @@ import UIKit
 import Mantle
 
 class GeneralAssemblyCourse: MTLModel, MTLJSONSerializing {
-    var imageUrl: String!
     var title: String!
-    var format: String!
+    var image: UIImage?
     var shortDescription: String!
     var instructors: Array<GAInstructor>!
+    var imageUrl: String!
+    var format: String!
     
     class func JSONKeyPathsByPropertyKey() -> [NSObject : AnyObject]! {
         return ["imageUrl":"image_url", "title":"title", "format":"format", "shortDescription":"overview", "instructors":"instructors"]
